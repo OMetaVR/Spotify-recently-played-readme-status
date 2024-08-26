@@ -1,5 +1,3 @@
-Certainly! I'll create a GitHub README for your project based on the information you've provided. I'll use the structure and design elements from the Spotube README you shared, but adapt it to fit your project. Here's a draft:
-
 <div align="center">
   <img width="600" src="https://via.placeholder.com/600x200?text=Spotify+Now+Playing" alt="Spotify Now Playing Logo">
 
