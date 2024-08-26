@@ -7,9 +7,6 @@ An open-source, cross-platform Spotify Now Playing display<br />
 compatible with Windows, macOS, and Linux, utilizing Spotify's API<br />
 to show your currently playing track in real-time
 
-<a href="#features"><img alt="Features" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/features_vector.svg"></a>
-<a href="#installation"><img alt="Installation Guide" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/documentation_vector.svg"></a>
-
 <a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/stargazers"><img src="https://img.shields.io/github/stars/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub Repo stars"></a>
 <a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues"><img src="https://img.shields.io/github/issues/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub issues"></a>
 <a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/LICENSE"><img src="https://img.shields.io/github/license/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub License"></a>
