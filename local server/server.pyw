@@ -100,7 +100,7 @@ def server_loop():
                 update_content_on_server(current_content)
                 last_content = current_content
                 last_update_time = current_time
-            elif (current_time - last_update_time) > 480:  # 8 minutes = 480 seconds
+            elif (current_time - last_update_time) > 100:
                 logging.info("No updates for 8 minutes. Resending last content info.")
                 update_content_on_server(last_content)
                 last_update_time = current_time
