@@ -25,41 +25,6 @@ to show your currently playing track in real-time
 - 🎨 Customizable display options
 - 🔄 Automatic updates of track information
 
-## 📜 Installation Guide
-
-<table>
-  <tr>
-    <th>Platform</th>
-    <th>Installation Method</th>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <a href="https://github.com/yourusername/spotify-now-playing/releases/latest/download/SpotifyNowPlaying-windows-x86_64-setup.exe">
-        <img width="220" alt="Windows Download" src="https://get.todoist.help/hc/article_attachments/4403191721234/WindowsButton.svg">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>macOS</td>
-    <td>
-      <a href="https://github.com/yourusername/spotify-now-playing/releases/latest/download/SpotifyNowPlaying-macos-universal.dmg">
-        <img width="220" alt="MacOS Download" src="https://reachify.io/wp-content/uploads/2018/09/mac-download-button-1.png">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux</td>
-    <td>
-      <a href="https://github.com/yourusername/spotify-now-playing/releases/latest/download/SpotifyNowPlaying-linux-x86_64.AppImage">
-        <img width="220" alt="Linux Download" src="https://user-images.githubusercontent.com/61944859/169097994-e92aff78-fd75-4c93-b6e4-f072a4b5a7ed.png">
-      </a>
-    </td>
-  </tr>
-</table>
-
-After downloading, run the installer and follow the on-screen instructions. You'll need to authenticate with your Spotify account on first run.
-
 ## 🚀 Getting Started
 
 1. Install the application for your platform
@@ -95,4 +60,3 @@ This project is licensed under the BSD-4-Clause License. See the [LICENSE](LICEN
 - [Spotify API](https://developer.spotify.com/documentation/web-api)
 - [Flutter](https://flutter.dev) for the cross-platform framework
 - [spotipy](https://github.com/plamere/spotipy) for Python Spotify API wrapper
-- All our contributors and users!
