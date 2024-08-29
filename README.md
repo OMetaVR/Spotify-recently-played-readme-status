@@ -116,7 +116,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the BSD-4-Clause License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Unlicensed License. See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
