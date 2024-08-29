@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="600" src="https://via.placeholder.com/600x200?text=Spotify+Now+Playing" alt="Spotify Now Playing Logo">
+  <img width="600" src="banner.png" alt="Spotify Now Playing Logo">
 
 An open-source, cross-platform Spotify Now Playing display<br />
 compatible with Windows, macOS, and Linux, utilizing Spotify's API<br />
