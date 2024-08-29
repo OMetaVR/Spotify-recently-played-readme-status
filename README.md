@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="600" src="banner.png" alt="Spotify Now Playing Logo">
+  <img width="600" src="images/banner.png" alt="Spotify Now Playing Logo">
 
 An open-source, cross-platform Spotify Now Playing display<br />
 compatible with Windows, macOS, and Linux, utilizing Spotify's API<br />
@@ -11,7 +11,7 @@ to show your currently playing track in real-time
 
 ---
 
-![Spotify Now Playing Desktop](screenshot.png)
+![Spotify Now Playing Desktop](images/screenshot.png)
 
 </div>
 
