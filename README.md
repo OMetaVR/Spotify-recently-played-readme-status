@@ -32,12 +32,13 @@ to show your currently playing track in real-time
 - Python 3.7 or higher
 - pip (Python package installer)
 - A Spotify Developer account
+- Node.js and npm (for server deployment)
 
 ### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/OMetaVR/Spotify-recently-played-readme-status.git
-cd Spotify-Now-Playing
+cd Spotify-recently-played-readme-status
 ```
 
 ### Step 2: Install Dependencies
@@ -67,7 +68,25 @@ SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
 
 Replace `your_client_id` and `your_client_secret` with the values from your Spotify Developer Application.
 
-### Step 5: Run the Application
+### Step 5: Deploy the Server
+
+1. Sign up for an account on [Render](https://render.com/) or a similar hosting service
+2. Create a new Web Service and connect it to your GitHub repository
+3. Set the following:
+   - Build Command: `npm install`
+   - Start Command: `node server.js`
+4. Add the environment variables from your `.env` file to the hosting service's environment variables section
+5. Deploy the server and note down the URL provided by the hosting service
+
+### Step 6: Update Local Configuration
+
+Add the following line to your `.env` file, replacing `your-render-url` with the URL from Step 5:
+
+```
+RENDER_SERVER_URL=https://your-render-url.onrender.com/update-track
+```
+
+### Step 7: Run the Application
 
 ```bash
 python main.py
@@ -75,12 +94,12 @@ python main.py
 
 The first time you run the application, it will open a web browser for authentication. Log in with your Spotify account and grant the necessary permissions.
 
-### Step 6: Access the Now Playing Display
+### Step 8: Access the Now Playing Display
 
-Once the application is running, you can access your Now Playing display at:
+Once the application is running and the server is deployed, you can access your Now Playing display at:
 
 ```
-http://localhost:10000/now-playing
+https://your-render-url.onrender.com/now-playing
 ```
 
 This URL will display an image of your currently playing track, which you can embed in other applications or websites.
@@ -89,9 +108,10 @@ This URL will display an image of your currently playing track, which you can em
 
 If you encounter any issues during installation or setup, please check the following:
 
-- Ensure all environment variables are correctly set in the `.env` file
+- Ensure all environment variables are correctly set in both the `.env` file and your hosting service
 - Check that your Spotify Developer Application settings are correct
-- Make sure you're using a compatible Python version
+- Make sure you're using compatible versions of Python and Node.js
+- Verify that your server is successfully deployed and running
 
 For more detailed troubleshooting, please refer to the [Issues](https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues) section of the repository.
 
