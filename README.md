@@ -11,7 +11,7 @@ to show your currently playing track in real-time
 
 ---
 
-![Spotify Now Playing Desktop](https://via.placeholder.com/800x400?text=Desktop+Screenshot)
+![Spotify Now Playing Desktop](screenshot.png)
 
 </div>
 
