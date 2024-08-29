@@ -115,15 +115,6 @@ If you encounter any issues during installation or setup, please check the follo
 
 For more detailed troubleshooting, please refer to the [Issues](https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues) section of the repository.
 
-## 🛠️ Configuration
-
-You can customize the display by right-clicking on the app and selecting "Settings". Options include:
-
-- Display size
-- Color scheme
-- Information to display (artist, album, track progress, etc.)
-- Behavior when no track is playing
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
