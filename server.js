@@ -144,9 +144,17 @@ app.post('/update-track', async (req, res) => {
         lastPlayedImage = null;
       }
     }
+    currentTrack = req.body;
+    console.log('Received track update:', currentTrack);
+    
+    // Generate image for the new current track immediately
+    try {
+      lastGeneratedImage = await generateImage(currentTrack);
+      console.log('Generated image for new current track');
+    } catch (error) {
+      console.error('Error generating image for new current track:', error);
+    }
   }
-  currentTrack = req.body;
-  console.log('Received track update:', currentTrack);
   res.status(200).send('Track updated');
 });
 
@@ -156,13 +164,15 @@ app.get('/now-playing', async (req, res) => {
 
   if (currentTrack) {
     trackInfo = currentTrack;
-    try {
-      console.log('Generating image for current track:', currentTrack.name);
-      imageToSend = await generateImage(currentTrack);
-      lastGeneratedImage = imageToSend;
-    } catch (error) {
-      console.error('Error generating image for current track:', error);
-      imageToSend = lastGeneratedImage;
+    imageToSend = lastGeneratedImage;
+    if (!imageToSend) {
+      try {
+        console.log('Generating image for current track:', currentTrack.name);
+        imageToSend = await generateImage(currentTrack);
+        lastGeneratedImage = imageToSend;
+      } catch (error) {
+        console.error('Error generating image for current track:', error);
+      }
     }
   } else if (lastPlayedTrack) {
     trackInfo = lastPlayedTrack;
@@ -172,7 +182,7 @@ app.get('/now-playing', async (req, res) => {
   if (imageToSend) {
     console.log('Sending image, size:', imageToSend.length, 'bytes');
     res.set('Content-Type', 'image/png');
-    res.set('Cache-Control', 'public, max-age=300'); // Cache for 5 minutes
+    res.set('Cache-Control', 'public, max-age=480'); // Cache for 5 minutes
     res.send(imageToSend);
   } else {
     console.log('No image available, sending default');
