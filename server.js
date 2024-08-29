@@ -182,7 +182,7 @@ app.get('/now-playing', async (req, res) => {
   if (imageToSend) {
     console.log('Sending image, size:', imageToSend.length, 'bytes');
     res.set('Content-Type', 'image/png');
-    res.set('Cache-Control', 'public, max-age=480'); // Cache for 5 minutes
+    res.set('Cache-Control', 'public, max-age=100'); // Cache for 5 minutes
     res.send(imageToSend);
   } else {
     console.log('No image available, sending default');
