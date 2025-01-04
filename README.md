@@ -4,13 +4,13 @@
 A lightweight Node.js server that generates a dynamic image of your currently playing Spotify track,<br />
 perfect for embedding in GitHub READMEs, websites, or anywhere that accepts image URLs.
 
-<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/stargazers"><img src="https://img.shields.io/github/stars/yourusername/spotify-done-right?style=flat-square" alt="GitHub Repo stars"></a>
-<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues"><img src="https://img.shields.io/github/issues/yourusername/spotify-done-right?style=flat-square" alt="GitHub issues"></a>
-<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/LICENSE"><img src="https://img.shields.io/github/license/yourusername/spotify-done-right?style=flat-square" alt="GitHub License"></a>
+<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/stargazers"><img src="https://img.shields.io/github/stars/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub Repo stars"></a>
+<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues"><img src="https://img.shields.io/github/issues/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub issues"></a>
+<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/LICENSE"><img src="https://img.shields.io/github/license/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub License"></a>
 
 ---
-
-![Spotify Now Playing Example](http://your-server:3002/nowplaying.png?t=123)
+Here is a live preview, this image is my last song I listened too!
+![Spotify Now Playing Example](https://spotify.meternalized.online/nowplaying.png?t=01%2F04%2F2025%203%3A10%20AM)
 
 </div>
 
