@@ -9,8 +9,6 @@ perfect for embedding in GitHub READMEs, websites, or anywhere that accepts imag
 <a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/LICENSE"><img src="https://img.shields.io/github/license/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub License"></a>
 
 ---
-Here is a live preview, this image is my last song I listened too!
-![Spotify Now Playing Example](https://spotify.meternalized.online/nowplaying.png?t=01%2F04%2F2025%203%3A10%20AM)
 
 </div>
 
@@ -105,6 +103,9 @@ Add this to your README.md (replace the URL with your server's URL):
 ```
 
 Note: The `?t={timestamp}` parameter helps prevent GitHub's image caching. You might want to use a GitHub Action to automatically update this timestamp periodically.
+
+If all is done correctly you should have something like this, this image is my last song I listened too!
+![Spotify Now Playing Example](https://spotify.meternalized.online/nowplaying.png?t=01%2F04%2F2025%203%3A10%20AM)
 
 ## 🤝 Contributing
 
