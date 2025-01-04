@@ -4,9 +4,9 @@
 A lightweight Node.js server that generates a dynamic image of your currently playing Spotify track,<br />
 perfect for embedding in GitHub READMEs, websites, or anywhere that accepts image URLs.
 
-<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/stargazers"><img src="https://img.shields.io/github/stars/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub Repo stars"></a>
-<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues"><img src="https://img.shields.io/github/issues/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub issues"></a>
-<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/LICENSE"><img src="https://img.shields.io/github/license/OMetaVR/Spotify-recently-played-readme-status?style=flat-square" alt="GitHub License"></a>
+<a href="https://github.com/OMetaVR/ReadMe-RPCs/stargazers"><img src="https://img.shields.io/github/stars/OMetaVR/ReadMe-RPCs?style=flat-square" alt="GitHub Repo stars"></a>
+<a href="https://github.com/OMetaVR/ReadMe-RPCs/issues"><img src="https://img.shields.io/github/issues/OMetaVR/ReadMe-RPCs?style=flat-square" alt="GitHub issues"></a>
+<a href="https://github.com/OMetaVR/ReadMe-RPCs/LICENSE"><img src="https://img.shields.io/github/license/OMetaVR/ReadMe-RPCs?style=flat-square" alt="GitHub License"></a>
 
 ---
 
@@ -33,7 +33,7 @@ perfect for embedding in GitHub READMEs, websites, or anywhere that accepts imag
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/OMetaVR/Spotify-recently-played-readme-status.git
+git clone https://github.com/OMetaVR/ReadMe-RPCs.git
 cd spotify-done-right
 ```
 
