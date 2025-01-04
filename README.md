@@ -4,9 +4,9 @@
 A lightweight Node.js server that generates a dynamic image of your currently playing Spotify track,<br />
 perfect for embedding in GitHub READMEs, websites, or anywhere that accepts image URLs.
 
-<a href="https://github.com/yourusername/spotify-done-right/stargazers"><img src="https://img.shields.io/github/stars/yourusername/spotify-done-right?style=flat-square" alt="GitHub Repo stars"></a>
-<a href="https://github.com/yourusername/spotify-done-right/issues"><img src="https://img.shields.io/github/issues/yourusername/spotify-done-right?style=flat-square" alt="GitHub issues"></a>
-<a href="https://github.com/yourusername/spotify-done-right/LICENSE"><img src="https://img.shields.io/github/license/yourusername/spotify-done-right?style=flat-square" alt="GitHub License"></a>
+<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/stargazers"><img src="https://img.shields.io/github/stars/yourusername/spotify-done-right?style=flat-square" alt="GitHub Repo stars"></a>
+<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/issues"><img src="https://img.shields.io/github/issues/yourusername/spotify-done-right?style=flat-square" alt="GitHub issues"></a>
+<a href="https://github.com/OMetaVR/Spotify-recently-played-readme-status/LICENSE"><img src="https://img.shields.io/github/license/yourusername/spotify-done-right?style=flat-square" alt="GitHub License"></a>
 
 ---
 
@@ -35,7 +35,7 @@ perfect for embedding in GitHub READMEs, websites, or anywhere that accepts imag
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/spotify-done-right.git
+git clone https://github.com/OMetaVR/Spotify-recently-played-readme-status.git
 cd spotify-done-right
 ```
 
