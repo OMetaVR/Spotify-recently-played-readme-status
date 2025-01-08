@@ -107,7 +107,7 @@ Note: The `?t={timestamp}` parameter helps prevent GitHub's image caching. You m
 <div></div>
 
 <div align="center">
-If all is done correctly you should have something like this, this image is my last song I listened too!
+If all is done correctly you should have something like this, this image is live and is my last song I listened too!!!
 
 ![Spotify Now Playing Example](https://spotify.meternalized.online/nowplaying.png?t=01%2F04%2F2025%203%3A10%20AM)
 </div>
